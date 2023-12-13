@@ -1,0 +1,11 @@
+.navborder {
+    border: 2px solid;
+}
+
+[homelink] {
+    color: green;
+}
+
+a:hover { /* pseudo-class selector */
+    color: pink;
+}
