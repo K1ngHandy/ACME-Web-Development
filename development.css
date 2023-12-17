@@ -5,3 +5,7 @@ p {
 title {
     font-size: 25px;
 }
+img {
+    display: block;
+    width: 150px;
+}
