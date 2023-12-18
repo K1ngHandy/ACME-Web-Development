@@ -8,4 +8,7 @@ title {
 img {
     display: block;
     width: 150px;
+    padding: 5px;
+    border: 2px solid #ddd;
+    margin: 10px;
 }
