@@ -6,9 +6,19 @@ title {
     font-size: 25px;
 }
 img {
+    /* added box-sizing to add sizing predictability */
+    box-sizing: border-box;
     display: block;
     width: 150px;
+    /* padding: 5px;
+    border: 2px solid #ddd; */
+    margin: 10px;
+}
+img.a {
     padding: 5px;
     border: 2px solid #ddd;
-    margin: 10px;
+}
+img.b {
+    padding: 10px;
+    border: 10px solid #ddd;
 }
