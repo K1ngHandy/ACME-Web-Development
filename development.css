@@ -14,11 +14,9 @@ img {
     border: 2px solid #ddd; */
     margin: 10px;
 }
-img.a {
-    padding: 5px;
-    border: 2px solid #ddd;
+.images-container {
+    display: flex;
 }
-img.b {
-    padding: 10px;
-    border: 10px solid #ddd;
+img {
+    height: 150px;
 }
