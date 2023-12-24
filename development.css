@@ -6,17 +6,13 @@ title {
     font-size: 25px;
 }
 img {
-    /* added box-sizing to add sizing predictability */
-    box-sizing: border-box;
-    display: block;
-    width: 150px;
-    /* padding: 5px;
-    border: 2px solid #ddd; */
-    margin: 10px;
+    height: 150px;
+    padding: 5px;
+    border: 2px solid #ddd;
 }
 .images-container {
+    height: 250px;
+    border: 2px solid black;
     display: flex;
-}
-img {
-    height: 150px;
-}
+    justify-content: space-around;
+}   
